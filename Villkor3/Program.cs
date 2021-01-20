@@ -27,7 +27,7 @@ namespace Villkor3
                 Console.WriteLine($"Det är varmast i Visby. Medeltemperaturen är {medelvärde} grader.");            
             else if (temps[0] == temps[1] && temps[0] == temps[2])            
                 Console.WriteLine($"Det är lika varmt i alla städer. Medeltemperaturen är {medelvärde} grader.");            
-            else if (temps[0] == temps[1] && temps[1] > temps[2])            {
+            else if (temps[0] == temps[1] && temps[1] > temps[2])            
                 Console.WriteLine($"Det är varmast i Svedala och Jukkasjärvi. Medeltemperaturen är {medelvärde} grader.");            
             else if (temps[0] == temps[2] && temps[0] > temps[1])            
                 Console.WriteLine($"Det är varmast i Svedala och Visby. Medeltemperaturen är {medelvärde} grader.");            
